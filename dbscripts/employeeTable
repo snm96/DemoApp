@@ -1,0 +1,19 @@
+CREATE TABLE EMPLOYEE (
+  EMPLOYEE_ID int,
+  EMPLOYEE_NAME VARCHAR(64),
+  PRIMARY KEY (EMPLOYEE_ID)
+);
+
+insert into EMPLOYEE(EMPLOYEE_ID, EMPLOYEE_NAME)
+values(1, 'Soham');
+
+insert into EMPLOYEE(EMPLOYEE_ID, EMPLOYEE_NAME)
+values(2, 'Sagar');
+
+insert into EMPLOYEE(EMPLOYEE_ID, EMPLOYEE_NAME)
+values(3, 'Sham');
+
+insert into EMPLOYEE(EMPLOYEE_ID, EMPLOYEE_NAME)
+values(4, 'Sundar');
+
+COMMIT;
