@@ -81,6 +81,7 @@ public class ExcelUtils {
 	}
 
 	public void export(String exportPath) throws IOException {
+		System.out.println("Exporting Excel file at path : "+exportPath);
 		writeHeaderLine();
 		writeDataLines();
 		File file = new File(exportPath);
