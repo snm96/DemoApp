@@ -7,5 +7,7 @@ import com.demo.BankDemo.beans.Configuration;
 
 @Repository
 public interface ConfigurationRepository extends JpaRepository<Configuration, Long> {
+	
   Configuration findByName(String name);
+  
 }

@@ -16,9 +16,7 @@ import javax.persistence.Table;
 @Table(name = "BANK_ACCOUNT")
 public class BankAccount implements Serializable {
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 
 	@Id
